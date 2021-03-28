@@ -113,7 +113,11 @@ section {
 
 /* about me section */
 .bio {
-    background-color: rgb(238, 104, 42);
+    background-attachment: fixed;
+    background-position: 35%;
+    background-image: url("../images/mountian-norway.jpg");
+    background-size:cover;
+    background-position: center;
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +127,7 @@ section {
     align-self: center;
     font-size: 45px;
     color: var(--secondary-color);
-
+    text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
 }
 
 .bio-img {
@@ -134,20 +138,61 @@ section {
 }
 
 .bio-img img {
-    
+    align-self: flex-start;
     border: 3px rgb(0, 128, 128) solid;
     border-radius: 35px;
     box-shadow: 5px 5px 5px rgba(0, 128, 128, .5);
     height: 350px;
     width: 500px;
-    
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 0;
     
 }
 
 .bio-main {
-    margin;
-    color: teal;
+    color: #fff;
     align-self: flex-end;
+}
+/* about me end */
+
+.works {
+    background-attachment: fixed;
+    background-position: 35%;
+    background-image: url("../images/mountian-norway.jpg");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.works h2 {
+    text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
+    align-self: center;
+    font-size: 45px;
+    color: var(--secondary-color);
+}
+
+.work-img {
+    align-self: center;
+    margin-top: 120px;
+}
+
+.work-img img {
+    border: 3px solid var(--secondary-color);
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px rgba(0, 128, 128, .5);
+    height: 400px;
+    width: 800px;
+}
+
+/* contact me section */
+.contact {
+    background-attachment: fixed;
+    background-position: 35%;
+    background-image: url("../images/mountian-norway.jpg");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
 }
