@@ -1,5 +1,6 @@
 :root {
     --primary-color: rgb(212, 126, 14);
+    --secondary-color: #000080;
 }
 
 * {
@@ -19,7 +20,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-color: rgba(14, 17, 212, 0.25);
+    background-color: rgba(14, 17, 212, 0);
     background-position: center;
 }
 
@@ -60,4 +61,24 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-radius: 30px;
     text-shadow: none;
+}
+/* main footer display */
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: var(--secondary-color);
+    width: 100%;
+    padding: 25px;
+}
+/* footer text color and shadowing */
+footer h2 {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(241, 226, 11, 0.863);
+}
+/* padding for all sections*/
+section {
+    padding: 45px;
 }
