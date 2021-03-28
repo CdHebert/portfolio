@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(212, 126, 14);
-    --secondary-color: #000080;
+    --secondary-color: teal;
 }
 
 * {
@@ -15,17 +15,19 @@ body {
 }
 
 header {
-    background-position: 80%;
+    background-image: url("../images/mountian-norway.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-color: rgba(14, 17, 212, 0);
+    background-color: rgba(14, 17, 212, .75);
     background-position: center;
 }
 
 header h1 {
-    text-shadow: 0 0 10px rgba(14, 17, 212, 0.5);
+    text-shadow: 0 0 10px rgba(241, 226, 4, 0.75);
     font-weight: bold;
     font-size: 30px;
     color: var(--primary-color);
@@ -50,7 +52,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    text-shadow: 0 0 10px rgba(14, 17, 212, 0.5);
+    text-shadow: 0 0 10px rgba(241, 226, 4, 0.973);
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 20px;
@@ -58,7 +60,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: rgba(14, 17, 212, 0.75);
-    color: var(--secondary-color);
+    color: #FFFF00;
     border-radius: 30px;
     text-shadow: none;
 }
@@ -81,4 +83,71 @@ footer h2 {
 /* padding for all sections*/
 section {
     padding: 45px;
+}
+
+/* hero start */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 35%;
+    background-image: url("../images/mountian-norway.jpg");
+    background-size:cover;
+    background-position: center;
+    align-items:flex-start;
+    padding: 500px;
+}
+
+.sidebar div {
+    margin: 200px 0 0 0;
+    align-self: flex-start;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.sidebar div h3 {
+    color: rgba(5, 164, 185, 1);
+    text-shadow: -4px 22px 3px rgba(5, 164, 185, 0.5);
+}
+/* hero end */
+
+/* about me section */
+.bio {
+    background-color: rgb(238, 104, 42);
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+.bio h2 {
+    align-self: center;
+    font-size: 45px;
+    color: var(--secondary-color);
+
+}
+
+.bio-img {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    align-content:flex-start; 
+}
+
+.bio-img img {
+    
+    border: 3px rgb(0, 128, 128) solid;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px rgba(0, 128, 128, .5);
+    height: 350px;
+    width: 500px;
+    
+    flex-wrap: nowrap;
+    margin-top: 0;
+    
+}
+
+.bio-main {
+    margin;
+    color: teal;
+    align-self: flex-end;
 }
