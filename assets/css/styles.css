@@ -147,7 +147,7 @@ section {
 }
 
 .bio div h2 {
-    margin: 20px 850px;
+    margin: 20px;
     text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
     font-size: 45px;
     color: var(--secondary-color);
@@ -159,7 +159,7 @@ section {
 
 
 .bio-main div img {
-    margin: 20px 700px;
+    margin: 20px;
     align-items: center;
     border: 3px rgb(0, 128, 128) solid;
     border-radius: 35px;
@@ -169,7 +169,7 @@ section {
     
 }
 .bio-main p {
-    margin: 20px 700px;
+    margin: 20px;
     align-items: center;
     line-height: 1.5;
     color: #fff;
