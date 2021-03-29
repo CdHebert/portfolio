@@ -89,6 +89,7 @@ footer h2 {
 }
 
 .contact h2 {
+    top: 0;
     font-size: 25px;
     margin-top: 0;
     line-height: 1.5;
@@ -133,46 +134,41 @@ section {
 
 /* about me section */
 .bio {
+
     background-attachment: fixed;
     background-position: 35%;
     background-image: url("../images/mountian-norway.jpg");
     background-size:cover;
     background-position: center;
-    flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    line-height: 1.5;
+    justify-content: space-around;
+    flex-direction: column;
 }
-.bio h2 {
-    align-self: center;
+
+.bio div h2 {
+    text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
     font-size: 45px;
     color: var(--secondary-color);
-    text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
 }
 
-.bio-img {
-    margin: 0;
-    display: flex;
-    align-items: flex-start;
-    align-content:flex-start; 
-}
 
-.bio-img img {
-    align-self: flex-start;
+.bio-main div img {
+    align-items: center;
     border: 3px rgb(0, 128, 128) solid;
     border-radius: 35px;
     box-shadow: 5px 5px 5px rgba(0, 128, 128, .5);
     height: 350px;
     width: 500px;
-    flex-wrap: wrap;
-    margin-top: 0;
     
 }
-
-.bio-main {
+.bio-main p {
+    align-items: center;
+    line-height: 1.5;
     color: #fff;
-    align-self: flex-end;
 }
+
+
 /* about me end */
 
 .works {
