@@ -131,7 +131,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: column;
 }
 .bio div {
     display: flex;
@@ -178,9 +177,18 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    align-items: center;
 }
 
-.works h2 {
+.works div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 65%;
+}
+
+.works div h2 {
     text-shadow: 5px 5px 5px rgba(0, 128, 128, 0.5);
     align-self: center;
     font-size: 45px;
@@ -192,9 +200,10 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 60px;
+    width: 35%;
 }
 .work-img a {
-    width: 35%;
+    width: 100%;
 }
 
 .work-img a img {
@@ -208,10 +217,11 @@ section {
 .team-project {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px
+    margin-top: 60px;
+    width: 35%;
 }
 .team-project a {
-    width: 35%;
+    width: 100%;
 }
 .team-project a img {
     border: 3px solid var(--secondary-color);
@@ -220,4 +230,22 @@ section {
     height: auto;
     width: 100%;
 }
+.project-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    width: 68%;
+}
+.project-2 a {
+    width: 100%;
+}
+.project-2 a img {
+    border: 3px solid var(--secondary-color);
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px rgba(0, 128, 128, .5);
+    height: auto;
+    width: 100%;
+}
+
+
 /* styles end */
